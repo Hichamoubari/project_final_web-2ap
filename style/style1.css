@@ -1,0 +1,93 @@
+.container {
+    background-color: darkslateblue;
+    height: 60px;
+	width: 100%;
+	border: 0;
+}
+.container div {
+	display: flex;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+.container div h1, .container div a {
+	display: inline-flex;
+	align-items: center;
+}
+.container div h1 {
+	flex: 1;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	color: #eaebed;
+	font-weight: normal;
+}
+.container div a {
+	padding: 0 20px;
+	text-decoration: none;
+	color: #c1c4c8;
+	font-weight: bold;
+}
+.container div a i {
+	padding: 2px 8px 0 0;
+}
+.container div a:hover {
+	color: #eaebed;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif ;
+}
+.contact-title{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+    font-family: sans-serif ;
+}
+.contact-title h2{
+    font-size: 10px ;
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 50px;
+}
+form .submit {
+    background: midnightblue;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+/*
+form .submit:hover{
+    background-color:#f44336 ;
+    cursor: pointer;
+}*/
